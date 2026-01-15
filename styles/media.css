@@ -40,3 +40,18 @@ nav a i{display:none !important;}
 @media (max-width:768px){
   .videos-grid{grid-template-columns:1fr;}
 }
+
+@media (max-width:768px){
+  .footer-content{
+    grid-template-columns:1fr;
+    text-align:center;
+  }
+}
+
+@media (max-width:1024px){
+  .transform-grid{grid-template-columns:repeat(2,1fr);}
+}
+
+@media (max-width:768px){
+  .transform-grid{grid-template-columns:1fr;}
+}

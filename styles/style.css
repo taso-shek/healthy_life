@@ -143,6 +143,40 @@ footer{
   position:relative;
 }
 
+.footer-content{
+  max-width:1200px;
+  margin:0 auto;
+  padding:40px 20px;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:30px;
+}
+
+.footer-section h4{
+  margin-bottom:10px;
+}
+
+.footer-section i{
+  margin-right:8px;
+}
+
+.footer-section a{
+  color:white;
+  margin-right:15px;
+  font-size:20px;
+  transition:.3s;
+}
+
+.footer-section a:hover{
+  color:#c8e6c9;
+}
+
+footer{
+  background:#1b5e20;
+  color:white;
+}
+
+
 
 
 .features img{
@@ -189,7 +223,6 @@ footer{
   border:none;
 }
 
-/* ===== GLOBAL LOGO FIX ===== */
 header .logo img{
   width:60px !important;
   height:60px !important;
@@ -198,3 +231,60 @@ header .logo img{
   max-height:60px;
 }
 
+.logo-group{
+  display:flex;
+  align-items:center;
+  gap:15px;
+}
+
+.tbc-logo img{
+  width:45px;
+  height:45px;
+  object-fit:contain;
+  transition:.3s;
+}
+
+.partner-logo img:hover{
+  transform:scale(1.1);
+}
+
+
+.transformations{
+  padding:60px;
+  text-align:center;
+}
+
+.transform-grid{
+  margin-top:40px;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:30px;
+}
+
+.transform-card{
+  background:white;
+  padding:20px;
+  border-radius:20px;
+  box-shadow:0 10px 20px rgba(0,0,0,.08);
+  transition:.3s;
+}
+
+.transform-card:hover{
+  transform:translateY(-8px);
+}
+
+.transform-card img{
+  width:48%;
+  height:180px;
+  object-fit:cover;
+  border-radius:12px;
+}
+
+.transform-card h4{
+  margin:15px 0 5px;
+}
+
+.transform-card span{
+  color:var(--main);
+  font-size:14px;
+}
